@@ -21,7 +21,7 @@ describe("basics", function() {
     describe("Some variable declarations are hoisted", function() {
         it("should run without errors", function() {
             expect(someVariable).to.equal(undefined);
-
+            var someVariable = undefined
             ////////////////////////////////////////////////////////////////////
             // Declare "someVariable" in way so that the declaration is hoisted.
             // ✏️ ADD CODE HERE ✏️
