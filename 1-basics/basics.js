@@ -137,7 +137,7 @@ describe("basics", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-            var someProperty ={object:1}
+            var object ={someProperty:1}
 
             ////////////////////////////////////////////////////////////////////
 
