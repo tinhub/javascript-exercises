@@ -50,6 +50,9 @@ describe("basics", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
+            var someVariable = undefined;
+            typeof someVariable == null
+            typeof someVariable == true
 
             ////////////////////////////////////////////////////////////////////
 
