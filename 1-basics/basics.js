@@ -13,7 +13,7 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
             ////////////////////////////////////////////////////////////////////
-
+            let someVariable = true
             expect(someVariable).to.equal(true);
         });
     });
