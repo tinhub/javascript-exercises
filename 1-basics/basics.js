@@ -35,7 +35,7 @@ describe("basics", function() {
             expect(() => {
                 someVariable; // someVariable should NOT yet be defined here
             }).to.throw("Cannot access 'someVariable' before initialization");
-
+            let someVariable =undefined
             ////////////////////////////////////////////////////////////////////
             // Declare "someVariable" in way so that the declaration is NOT hoisted.
             // ✏️ ADD CODE HERE ✏️
