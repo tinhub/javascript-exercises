@@ -107,7 +107,7 @@ describe("basics", function() {
             // written in way that we don't have to write all the zeros AFTER the point.
             // Write it as a string so that the .length property can be checked.
             // ✏️ EDIT NEXT LINE ✏️
-            const someNumber = "10";
+            const someNumber = "10.";
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof someNumber).to.equal("string");
@@ -137,6 +137,7 @@ describe("basics", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
+            var someProperty ={object:1}
 
             ////////////////////////////////////////////////////////////////////
 
