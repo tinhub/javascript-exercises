@@ -72,7 +72,7 @@ describe("basics", function() {
             // new Number() creates a "primitive wrapper". It's not an actual number, it's an object.
             // In 99.999% of all cases, this is a bug and not actually intended. Fix it! :)
             // ✏️ FIX THAT BUG ✏️
-            const someNumber =  Number(3);
+            const someNumber = 3;
             ////////////////////////////////////////////////////////////////////
 
             // The primitive wrapper passes the loose quality check because it will be casted to a number.
