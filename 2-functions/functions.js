@@ -42,7 +42,8 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            const otherFunction = () =>{}
+            myFunction = otherFunction 
             ////////////////////////////////////////////////////////////////////
 
             if (myFunction !== otherFunction) {
