@@ -174,7 +174,7 @@ describe("functions", function() {
             // You're not allowed to define a new function here.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
-
+            
             ////////////////////////////////////////////////////////////////////
 
             const result = getContext.call(context);
@@ -205,7 +205,7 @@ describe("functions", function() {
             // Is there something even stronger than .bind()?
             // Find a way to call getContext(), but with a different context than 'context'.
             // ✏️ EDIT LINE BELOW ✏️
-            const result = getContext();
+            const result = new getContext();
             ////////////////////////////////////////////////////////////////////
 
             if (result === context) {
