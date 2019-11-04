@@ -305,7 +305,7 @@ describe("functions", function() {
                     // However, in this exercise you're only allowed to add code here.
                     // Is there a way to define a variable in a way that the code above will work?
                     // ✏️ ADD CODE HERE ✏️
-
+                    var myVariable = undefined
                     ////////////////////////////////////////////////////////////////////
                 }
             }
