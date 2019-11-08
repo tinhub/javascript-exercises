@@ -62,8 +62,11 @@
     var event = document.querySelector("data-key");
     //var playing = document.querySelector("data-key");
      
-      function removeTransition() {
+      function removeTransition(event) {
         console.log()
+        if(event.propertyName==="transform"){
+            event.target.classList.remove("playing");
+          }
       }
       const keys = Array.from(document.querySelectorAll(`.key`));
       
@@ -79,7 +82,7 @@
        if (!audio) {
           return;
         }
-         key.classList.add(playing);
+         key.classList.add(`playing`);
         audio.play();
         audio.currentTime= 0;
       console.log(key, audio);
