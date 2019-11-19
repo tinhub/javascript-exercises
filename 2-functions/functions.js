@@ -306,7 +306,7 @@ describe("functions", function() {
                     // However, in this exercise you're only allowed to add code here.
                     // Is there a way to define a variable in a way that the code above will work?
                     // ✏️ ADD CODE HERE ✏️
-                    var myVariable = undefined
+                    var myVariable = undefined //var myVariable;
                     ////////////////////////////////////////////////////////////////////
                 }
             }
@@ -320,7 +320,9 @@ describe("functions", function() {
             ////////////////////////////////////////////////////////////////////
             // Can you implement a function 'myFunction' that returns a function?
             // ✏️ ADD CODE HERE ✏️
-
+            function myFunction()  {
+                return function (){};
+            }
             ////////////////////////////////////////////////////////////////////
 
             const result = myFunction();
