@@ -12,7 +12,10 @@ describe("arrays", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function getNumberOfItems (array) {
+                return array.length;
+            }
+            
             ////////////////////////////////////////////////////////////////////
 
             expect(getNumberOfItems([])).to.equal(0);
@@ -24,6 +27,8 @@ describe("arrays", function() {
 
     describe("Remove last item", function() {
         it("should run without errors", function() {
+            function getNumberOfItems(array){}
+            getNumberOfItems ("a", "b", "c", "d")
             const array = ["a", "b", "c", "d"];
 
             ////////////////////////////////////////////////////////////////////
