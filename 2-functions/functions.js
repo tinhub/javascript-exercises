@@ -251,7 +251,7 @@ describe("functions", function() {
                 // Find a way to retrieve the number from here.
                 // You should not write any if's here. It should work for all possible numbers.
                 // ✏️ ADD CODE HERE ✏️
-
+                return arguments.length;
                 ////////////////////////////////////////////////////////////////////
             }
 
