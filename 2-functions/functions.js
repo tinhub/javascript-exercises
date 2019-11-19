@@ -679,7 +679,9 @@ describe("functions", function() {
             };
 
             // Now this time we've done it right: we .bind() the event handler before passing it to addEventListener().
+            event.handleEvent = service.handleEvent.bind(service);
             eventEmitter.addEventListener(service.handleEvent.bind(service));
+            //
             // But this will fail with an error. Apparently, the given listener is not stored in the 'listeners' array.
             // Find the reason and fix it.
             eventEmitter.removeEventListener(service.handleEvent);
@@ -693,7 +695,7 @@ describe("functions", function() {
                     return function() {
                         this.doSomething();
                         this.doAnotherThing();
-                    };
+                    }.bind(this);
                 },
                 doSomething: function() {},
                 doAnotherThing: function() {}
