@@ -679,7 +679,6 @@ describe("functions", function() {
             };
 
             // Now this time we've done it right: we .bind() the event handler before passing it to addEventListener().
-            event.handleEvent = service.handleEvent.bind(service);
             eventEmitter.addEventListener(service.handleEvent.bind(service));
             //
             // But this will fail with an error. Apparently, the given listener is not stored in the 'listeners' array.
@@ -716,7 +715,7 @@ describe("functions", function() {
             function calculateSum() {
                 let result = 0;
 
-                arguments.forEach(function(number) {
+                Array.from(arguments).forEach(function(number) {
                     result = result + number;
                 });
 
