@@ -51,7 +51,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-            
+            function appendItem(){
+                return array.unshift("a","b");
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(appendItem("a")).to.equal(1);
@@ -67,7 +69,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function appendMultipleItems(){
+                return array.unshift("a","b", "c");
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(appendMultipleItems("a", "b", "c")).to.equal(3);
@@ -101,7 +105,7 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            
             ////////////////////////////////////////////////////////////////////
 
             expect(prependMultipleItems("a", "b", "c")).to.equal(4);
@@ -117,7 +121,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function addItemsAtFirstPosition(){
+                return array.splice()
+            }
             ////////////////////////////////////////////////////////////////////
 
             addItemsAtFirstPosition("a");
